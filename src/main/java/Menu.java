@@ -1,3 +1,4 @@
+//klasa pobiera kod od użytkownika i odpowiada za menu
 import java.util.Scanner;
 
 public class Menu {
@@ -7,7 +8,7 @@ public class Menu {
         String inkod = scan.nextLine();
         if (inkod.indexOf("help")==0){
             System.out.println("Aplikacja ta służy do wyszukiwania lokalizacji po jej kodzie pocztowym. " +
-                    "\nObejmuje ona obszar Wielkiej Brytanii. Przykładowy kod pocztowy: OX49 205NU\nPodaj kod pocztowy: ");
+                    "\nObejmuje ona obszar Wielkiej Brytanii. Przykładowy kod pocztowy: OX49 5NU\nPodaj kod pocztowy: ");
             inkod = scan.nextLine();
         }
         return inkod;
